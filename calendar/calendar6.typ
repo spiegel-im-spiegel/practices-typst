@@ -103,8 +103,8 @@
 
 #{
 	let lastdays = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) //各月の日数
-	let year = 2025
-	if "year" in sys.inputs {
+	let year = datetime.today().year() //現在の年
+	if "year" in sys.inputs { //年が指定されている場合
 		year = int(sys.inputs.at("year"))
 	}
 	if (calc.rem(year, 100) == 0 and calc.rem(year, 400) == 0) or (calc.rem(year, 100) != 0 and calc.rem(year, 4) == 0) { //閏年かどうかを判定
