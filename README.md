@@ -1,6 +1,6 @@
 # Typst による組版の練習
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-0-blue.svg)](https://github.com/spiegel-im-spiegel/practices-typst/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/spiegel-im-spiegel/practices-typst)](https://github.com/spiegel-im-spiegel/practices-typst/blob/main/LICENSE)
 
 Typst の勉強と練習のためのリポジトリです。
 日本語組版を対象にしています。
