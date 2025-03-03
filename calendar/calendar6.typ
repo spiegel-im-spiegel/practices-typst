@@ -105,9 +105,9 @@
 	let lastdays = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) //各月の日数
 	let year = 2025
 	if "year" in sys.inputs {
-		year = sys.inputs.at("year")
+		year = int(sys.inputs.at("year"))
 	}
-	if (calc.rem(year, 100) == 0 and calc.rem(year, 400) == 0) or calc.rem(year, 4) == 0 { //閏年かどうかを判定
+	if (calc.rem(year, 100) == 0 and calc.rem(year, 400) == 0) or (calc.rem(year, 100) != 0 and calc.rem(year, 4) == 0) { //閏年かどうかを判定
 		lastdays.at(1) = 29
 	}
 	let calendars = ()
