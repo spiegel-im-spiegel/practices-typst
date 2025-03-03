@@ -1,5 +1,5 @@
-// #import "@preview/js:0.1.0": * //Typst Universe から取得する場合
-#import "js.typ": *
+#import "@preview/js:0.1.1": * //Typst Universe から取得する場合
+// #import "js.typ": * //ローカルに置いたものを直接インポートする場合
 
 // `js` パッケージ用パラメータ設定
 #show: js.with(
