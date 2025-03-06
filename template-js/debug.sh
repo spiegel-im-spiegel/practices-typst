@@ -1,2 +1,2 @@
 #!/bin/bash
-typst watch main.typ
+typst watch main.typ document.pdf
