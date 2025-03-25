@@ -1,4 +1,4 @@
-#import "@preview/js:0.1.2": * //Typst Universe から取得する場合
+#import "@preview/js:0.1.3": * //Typst Universe から取得する場合
 // #import "js.typ": * //ローカルに置いたものを直接インポートする場合
 
 #import "fonts.typ": * //フォント設定

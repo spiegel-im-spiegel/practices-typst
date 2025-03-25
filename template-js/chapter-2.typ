@@ -55,7 +55,18 @@ BIZ UDフォントシリーズは見やすく読み間違えにくいデザイ�
 欧文フォントとしては#stix2 の数式用フォントを指定している。
 和文フォントには#bizudmincho を指定している。
 
-数式の表示例は以下の通り。
+たとえば以下の記述に対して
+
+```
+$
+  (integral_0^infinity (sin x) / sqrt(x) dif x)^2 =
+  sum_(k=0)^infinity (2k)! / (2^(2k) (k!)^2) 1 / (2k+1) =
+  product_(k=1)^(infinity) (4k^2) / (4k^2-1) =
+  pi / 2
+$
+```
+
+以下のように出力される。
 
 #rect(width:100%, radius:3pt)[
 $
